@@ -1,0 +1,23 @@
+#tabla1{
+    text-align: center;
+    display: flex; /* Usamos flexbox para centrar verticalmente y horizontalmente */
+    justify-content: center; /* Centramos horizontalmente */
+    align-items: center;
+}
+table {
+    table-layout: fixed;
+    border: 2px solid black;
+}
+
+td {
+    width: 25%;
+    padding: 5%;
+    overflow: auto;
+    border: 2px solid black;
+}
+
+tr {
+    border: 2px solid black;
+    height: 75%;
+    width: 75%;
+}
